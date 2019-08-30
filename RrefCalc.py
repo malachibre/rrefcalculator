@@ -6,7 +6,6 @@ current_row = 0
 def swap_rows(mat, row, row2):
     mat[row], mat[row2] = mat[row2], mat[row]
 
-
 print("\nFor the coefficient matrix: ")
 for i in range(rows):
     row = input("Enter in each number sepertaed by a space")
@@ -23,7 +22,6 @@ for i in range(rows):
 print("\nStarting Matrix:")
 for i in range(len(mat)):
     print(str(mat[i]) + " " + str(a_mat[i]))
-
 
 for current_col in range(len(mat[0])):
     if mat[current_row][current_row] == 0 and current_col != len(mat[0]) - 1:
